@@ -12,5 +12,5 @@ generate_server:
 				swagger generate server -f swagger_pet_store.${FORMAT} -o logs/swagger_pet_store_server.log
 
 clean:
-	rm -rf client models restapi
+	rm -rf client models restapi logs/*
 
